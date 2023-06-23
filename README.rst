@@ -2,7 +2,7 @@ Wavelet scattering tutorials
 ============================
 
 This is a collection of Jupyter notebooks aimed at learning and experimenting
-with the **Wavelet Scattering Transform (WST)** and its variants. The WST is
+with the **Wavelet Scattering Transform (WST)** [#]_ and its variants [#]_. The WST is
 used to extract information from non-Gaussian processes. The WST is similar to 
 a ConvNet in that it cascades convolutions and non-linear activation functions.
 However, the weights are wavelets of different scale (and orientation in 2D),
@@ -47,5 +47,5 @@ kymatio_
 References
 ----------
 
-1. J. Bruna, S. Mallat, *Invariant Scattering Convolution Networks* (https://arxiv.org/abs/1203.1513)
-2. R. Morel, G. Rochette, R. Leonarduzzi, J.-P. Bouchaud, S. Mallat, *Scale Dependencies and Self-Similar Models with Wavelet Scattering Spectra* (https://arxiv.org/abs/2204.10177)
+.. [#] J Bruna, S Mallat, *Invariant Scattering Convolution Networks* (https://arxiv.org/abs/1203.1513)
+.. [#] R Morel, G Rochette, R Leonarduzzi, J-P Bouchaud, S Mallat, *Scale Dependencies and Self-Similar Models with Wavelet Scattering Spectra* (https://arxiv.org/abs/2204.10177)
